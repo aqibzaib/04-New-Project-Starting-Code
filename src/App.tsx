@@ -7,16 +7,14 @@ function App() {
     <main>
       {/* <Input id="name" label="name" type="text" />
       <Input id="age" label="Age" type="number" /> */}
-      {/* <p>
-        <Button el="button">A Button</Button>
+      <p>
+        <Button >A Button</Button>
       </p>
 
       <p>
-        <Button el="anchor" href="https://www.google.com">
-          A Link
-        </Button>
-      </p> */}
-      <Container as={Button} />
+        <Button href="https://www.google.com">A Link</Button>
+      </p>
+      {/* <Container as={Button} /> */}
     </main>
   );
 }
